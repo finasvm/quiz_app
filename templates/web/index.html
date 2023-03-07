@@ -1,0 +1,26 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+
+
+<section class="position-relative" id="usernameSection">
+    <div class="container">
+        <div class="row justify-content-center align-item-center">
+            <div class="col-lg-12 col-12">
+                <form class="userform row w-50 mx-auto" id="userForm" action="" method="POST">
+                    <div class=" col-12">
+                        <h1 for="username" class="form-label text-center d-block">Enter your Name to start!</h1>
+                    </div>
+                    {% csrf_token %}
+                    <div class="mb-4 mt-4 col-12">
+                        <input type="text" class="form-control user-input" id="username" name="username" placeholder="Enter Name" required>
+                    </div>
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-primary quiz-btn text-center">Start Quiz</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

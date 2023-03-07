@@ -1,0 +1,277 @@
+@media screen and (min-width:1400px) {
+   
+    #usernameSection {
+        height: 90vh;
+    }
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1399px) {
+    #QuestionForm .question {
+        font-weight: 700;
+        font-size: 36px;
+
+        color: #696F79;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1199px) {
+    .user-input {
+        background: #FFFFFF;
+        box-shadow: 0px 5.82667px 15.5378px 1.94222px #ededed;
+        border-radius: 30px;
+        border: none;
+        line-height: 35px;
+        width: 68%;
+        margin: auto;
+        color: #8692A6;
+        padding: 7px 18px;
+        font-size: 13px;
+    }
+
+    .quiz-btn {
+        background: #8692A6;
+        border-radius: 40px;
+        border: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+        padding: 9px 39px;
+        /* width: 37%; */
+        margin: auto;
+    }
+    #QuestionForm .option-radio-input {
+        position: absolute;
+        width: 74%;
+        height: 100%;
+        border-radius: 81px;
+        margin: auto;
+        opacity: 0;
+        cursor: pointer;
+        left: 13%;
+    }
+    #QuestionForm .option-label {
+        background: #8692A6;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        color: #FFFFFF;
+        padding: 10px 35px;
+        width: 74%;
+        margin-left: auto;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #QuestionForm .option-label {
+        background: #8692A6;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        color: #FFFFFF;
+        padding: 12px 35px;
+        width: 66%;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    #usernameSection {
+        height: 85vh;
+    }
+
+    #userForm {
+        position: absolute;
+        top: 32%;
+        left: 0;
+    }
+
+    .w-50 {
+        width: 100% !important;
+    }
+
+    form {
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+
+    .user-input {
+        background: #FFFFFF;
+        box-shadow: 0px 5.82667px 15.5378px 1.94222px #ededed;
+        border-radius: 30px;
+        border: none;
+        line-height: 35px;
+        width: 65%;
+        margin: auto;
+        color: #8692A6;
+        padding: 7px 18px;
+        font-size: 13px;
+    }
+
+    .quiz-btn {
+        background: #8692A6;
+        border-radius: 40px;
+        border: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+        padding: 9px 39px;
+        /* width: 30%; */
+        margin: auto;
+    }
+
+    .nxt-btn {
+        background: #8692A6;
+        border-radius: 40px;
+        border: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        text-align: center;
+        color: #fff;
+        padding: 9px 47px;
+        margin: auto;
+    }
+
+    .form-label {
+        font-family: 'Poppins';
+        font-weight: 700;
+        color: #696F79;
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    #usernameSection {
+        height: 85;
+    }
+
+    .w-50 {
+        width: 100% !important;
+    }
+
+    form {
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+
+    .user-input {
+        background: #FFFFFF;
+        box-shadow: 0px 5.82667px 15.5378px 1.94222px #ededed;
+        border-radius: 30px;
+        border: none;
+        line-height: 35px;
+        width: 90%;
+        margin: auto;
+        color: #8692A6;
+        padding: 7px 18px;
+        font-size: 13px;
+        max-width: 100%;
+    }
+
+    .quiz-btn {
+        background: #8692A6;
+        border-radius: 40px;
+        border: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        text-align: center;
+        color: #fff;
+        padding: 13px 40px;
+        margin: auto;
+    }
+
+    .form-label {
+        font-family: 'Poppins';
+        font-weight: 700;
+        color: #696F79;
+        font-size: 26px;
+    }
+
+    #QuestionForm .question {
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 35px;
+        color: #696F79;
+    }
+
+    #QuestionForm .option-label {
+        background: #8692A6;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        color: #FFFFFF;
+        padding: 10px 35px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #QuestionForm .option-radio-input {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        /* right: 0; */
+        left: 0;
+        margin: auto;
+        opacity: 0;
+    }
+
+    #resultSection {
+        height: 100vh;
+    }
+
+    .result-box {
+        position: relative;
+        top: 70px;
+    }
+
+    .title-box h1,
+    .title-box h2 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    #resultSection .box {
+        box-shadow: 0px 6.15355px 16.4095px 2.05118px #ededed;
+        border-radius: 6px;
+        width: 54px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 11px;
+    }
+
+    #resultSection .box .crtansr-icon {
+        background: #696F79;
+        color: #fff;
+        padding: 10px;
+        border-radius: 100%;
+        width: 32px;
+        height: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 17px;
+
+    }
+
+    #resultSection .detail-box .para {
+        font-weight: 400;
+        font-size: 14px;
+    }
+}

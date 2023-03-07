@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #696F79;
+}
+
+a {
+    text-decoration: none;
+}
+/* .plt-25 {
+    padding: 0 0 0 25px;
+} */
+.logo-title {
+    font-family: 'Poppins';
+
+    font-weight: 800;
+    line-height: 10px;
+    color: #696F79 !important;
+    /* padding: 16px 0 0 25px; */
+
+}
+
+#usernameSection {
+    height: 85vh;
+}
+
+form {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+#userForm {
+    position: absolute;
+    top: 32%;
+    left: 25%;
+}
+
+.user-input {
+    background: #FFFFFF;
+    box-shadow: 0px 5.82667px 15.5378px 1.94222px #EDEDED;
+    border-radius: 30px;
+    border: none;
+    line-height: 35px;
+    width: 46%;
+    margin: auto;
+    color: #8692A6;
+    padding: 7px 18px;
+    font-size: 13px;
+}
+
+input::placeholder {
+    color: #8692A6;
+}
+
+.form-label {
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #696F79;
+    font-size: 25px;
+}
+
+.quiz-btn {
+    background: #8692A6;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    padding: 13px 40px;
+    /* width: 21%; */
+    margin: auto;
+}
+
+.quiz-btn:hover {
+    background-color: #17A03D;
+}
+
+
+
+
+#footer .footer-descrption {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 13px;
+    
+    color: #696F79;
+}
+
+
+#selectForm h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #696F79;
+}
+
+
+#selectForm .form-check-label {
+    background: #FFFFFF;
+    border: 2px solid #8692A6;
+    width: 40px;
+    text-align: center;
+    border-radius: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #696F79;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#selectForm .slct-nmbrof-qstn {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 48px;
+    top: -4px;
+    opacity: 0;
+}
+
+.slct-nmbrof-qstn:checked+.form-check-label {
+    background-color: #8692A6 !important;
+    color: #fff !important;
+}
+
+#QuestionForm .question {
+    font-weight: 700;
+    font-size: 50px;
+    /* line-height: 60px; */
+    color: #696F79;
+}
+
+#QuestionForm .option-label {
+    background: #8692A6;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 10px 35px;
+    width: 55%;
+    margin-left: auto;
+    cursor: pointer;
+
+}
+
+#QuestionForm .option-radio-input {
+    position: absolute;
+    width: 74%;
+    height: 100%;
+    border-radius: 81px;
+    right: 13%;
+    margin: auto;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.option-radio-input:checked+.form-check-label {
+    background-color: #8692a691  ;
+    color: #fff !important;
+}
+
+.correct-answer {
+    background: #17A03D !important;
+}
+
+.wrong-answer {
+    background: #DB180C !important;
+}
+
+#resultSection {
+    height: 88vh;
+
+}
+
+#resultSection .box {
+    box-shadow: 0px 6.15355px 16.4095px 2.05118px #ededed;
+    border-radius: 6px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#resultSection .box .crtansr-icon {
+    background: #696F79;
+    color: #fff;
+    padding: 10px;
+    border-radius: 100%;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+#resultSection .corrected-ansr-count {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+
+}
+
+#resultSection .detail-box .para {
+
+    font-weight: 400;
+    font-size: 15px;
+
+
+}
+
+.result-box {position:relative;
+    top: 150px;
+}
+
+.takemr-btn {
+    background: #8692A6;
+    border-radius: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 12px;
+    color: #FFFFFF;
+    padding: 20px 30px;
+}
+.takemr-btn:hover {
+    background-color: #17A03D;
+    color: #fff;
+}
+.title-box h1, .title-box h2 {
+    font-weight: 700;
+    font-size: 38px;
+}
+.nxt-btn {
+    background: #8692A6;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    padding: 9px 47px;
+    margin: auto;
+}
+.nxt-btn:hover {
+    background-color: #17A03D;
+    color: #fff;
+}
+.form-check-input:disabled~.form-check-label, .form-check-input[disabled]~.form-check-label {
+    opacity: 1;
+}
